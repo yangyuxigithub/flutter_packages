@@ -31,6 +31,7 @@ class EarthState extends State<Earth> {
     points = [];
     _calcLH(0);
     _calcUH(0);
+    _animate();
   }
 
   @override
@@ -51,7 +52,6 @@ class EarthState extends State<Earth> {
       ),
     );
   }
-
 
   /*
   * 下半球的点
@@ -108,7 +108,7 @@ class EarthState extends State<Earth> {
 
     //递归
     if (dis < R) {
-      dis = dis + 30;
+      dis = dis + 20;
       if (dis >= R) dis = R;
       _calcUH(dis);
     }
@@ -119,16 +119,16 @@ class EarthState extends State<Earth> {
 
     dataOfCircle = [];
 
-    double angle = pi / 180;
+    double angle = pi / 360;
     for (TDP tdp in points) {
-      tdp.rotateZ(angle);
-      tdp.rotateY(angle);
-      tdp.rotateX(angle);
+//      tdp.rotateZ(angle);
+//      tdp.rotateY(angle);
+      tdp.rotateX(pi / 6);
       dataOfCircle.add(tdp.project());
     }
     setState(() {});
     Future.delayed(Duration(milliseconds: 100), () {
-      _animate();
+      //_animate();
     });
   }
 }

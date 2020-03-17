@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyrefresh/easy_refresh.dart';
 
 import 'DragSortWidget.dart';
+import 'RefreshPage.dart';
 import 'SafeWheel.dart';
 import 'WheelSelectPage.dart';
 import 'earth.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Earth(),
+      home: RefreshPage(),
     );
   }
 }
