@@ -25,7 +25,7 @@ class ParticleHeader extends Header {
     _handleRefreshState(refreshState);
 
     return Container(
-      child: ParticleText(text: '慧停车+', height: pulledExtent, key: _key),
+      child: ParticleText(text: 'HELLO', height: pulledExtent, key: _key),
     );
   }
 

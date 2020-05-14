@@ -31,12 +31,14 @@ class EarthState extends State<Earth> {
     points = [];
     _calcLH(0);
     _calcUH(0);
+    Future.delayed(Duration(milliseconds: 200), () {
+      _animate();
+    });
   }
 
   @override
   void reassemble() {
     super.reassemble();
-    _animate();
   }
 
   @override

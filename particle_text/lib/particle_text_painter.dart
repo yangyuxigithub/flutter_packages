@@ -342,7 +342,7 @@ class Particle {
 
     paint = Paint()
       ..style = PaintingStyle.stroke
-      ..color = Color.fromRGBO(30, 14, 255, Random().nextDouble())
+      ..color = Color.fromRGBO(220, 20, 60, Random().nextDouble())
       ..strokeWidth = r
       ..strokeCap = StrokeCap.round;
 
