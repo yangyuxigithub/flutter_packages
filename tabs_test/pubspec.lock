@@ -64,6 +64,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.1.3"
+  custom_tabs:
+    dependency: "direct main"
+    description:
+      path: custom_tabs
+      ref: HEAD
+      resolved-ref: bd36678e90bb2186e3516943c496f02c88957938
+      url: "git@github.com:yangyuxigithub/flutter_packages.git"
+    source: git
+    version: "1.0.0"
   flutter:
     dependency: "direct main"
     description: flutter

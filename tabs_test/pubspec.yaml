@@ -29,7 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
 
-  gt_push:
+  custom_tabs:
     git:
       url: git@github.com:yangyuxigithub/flutter_packages.git
       path: custom_tabs
