@@ -1,0 +1,6 @@
+2022-01-28 13:18:03.083115 | INFO | ------------------------- 开始解析代码 -------------------------
+2022-01-28 13:18:06.925598 | INFO | ResolvedUnitResultImpl -- 路径: /Users/yangyuxi/Desktop/simple_app/lib/modules/module_b/test.dart
+2022-01-28 13:18:06.986708 | INFO | ResolvedUnitResultImpl -- 路径: /Users/yangyuxi/Desktop/simple_app/lib/models/test.dart
+2022-01-28 13:18:06.993340 | INFO | ResolvedUnitResultImpl -- 路径: /Users/yangyuxi/Desktop/simple_app/lib/my_test.dart
+2022-01-28 13:18:07.149504 | INFO | ResolvedUnitResultImpl -- 路径: /Users/yangyuxi/Desktop/simple_app/lib/main.dart
+2022-01-28 13:18:07.154188 | INFO | ResolvedUnitResultImpl -- 路径: /Users/yangyuxi/Desktop/simple_app/lib/modules/module_a/test.dart

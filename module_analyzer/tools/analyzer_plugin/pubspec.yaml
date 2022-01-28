@@ -1,0 +1,9 @@
+name: custom_code_analysis_bootstrap
+version: 1.2.3
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  module_analyzer:
+    path: /Users/yangyuxi/Desktop/module_analyzer
